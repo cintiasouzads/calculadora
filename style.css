@@ -1,9 +1,81 @@
-*{
-    height: 0;
-    width: 0;
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400&family=Outfit:wght@100;400;600;700&family=Passion+One&family=Poppins:ital,wght@0,200;0,700;1,400;1,500&family=Sriracha&family=Work+Sans&display=swap');
+
+body{
+   width: 100%; 
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: black;
 }
 
-section {
-    display: flex;
+
+
+input{
+    color: #fff;
+    padding: 17px;
+    outline: none;
+    font-size: 30px;
+    font-family: font-family:'Bebas Neue', cursive;
+    border-radius:25%;
+    border-color: white;
+
+}
+
+.num{
+    width: 64px;
+    height: 67px;
+}
+
+.text{
+   width: 160px; 
+   height: 26px;
+   border-radius: 22px;
+   letter-spacing: 5px;
+   text-align: center;
+   margin-bottom: 12px;
+}
+
+.text1{
+   width: 24px; 
+   height: 26px;
+   border-radius:50%;
+   letter-spacing:5px ;
+   text-align: center;
+   margin-bottom:12px;
+   cursor:pointer;
+}
+
+main {
+    display: inline-block;
+    
+}
+
+.maincolor{
+    background-color: #000;
+}
+
+.blue{
+    background-color: blueviolet;
+    border: none;
+}
+
+.pin{
+    background-color:#BA4DE3;
+    border: none;
+}
+
+.gre{
+    background-color: purple;
+    border: none;
+}
+
+.pur{
+    background-color:#8A05BE;
+    border: none;
+}
+
+.ora{
+    background-color:#530082;
+    border: none;
 }
